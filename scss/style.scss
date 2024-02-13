@@ -1,0 +1,43 @@
+// Sub theme styling.
+@import 'variables_drupal';
+
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+@import 'variables_bootstrap';
+
+// Include bootstrap.
+@import '../../../../themes/contrib/bootstrap5/scss/style';
+
+
+$cebaf-yellow: #ffffeb;
+
+// Local style rules
+.site-logo-bg{
+  background-color: black;
+  width:100%;
+}
+
+.sidebar-img {
+  width:100%;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.region-sidebar-second > .block-block-content,
+.region-sidebar-first > .block-block-content {
+  background-color: $cebaf-yellow;
+}
+
+.table.table-transparent {
+  background-color: $cebaf-yellow;
+  --bs-table-bg: $cebaf-yellow;
+}
+
+.block-block-content h2,
+.block-aggregator h2{
+  color: #ffffff;
+  padding: 0.1em;
+  font-size: larger;
+  background: #ffffff url(../block_head_gradient_24.png) repeat-x center left;
+}
+

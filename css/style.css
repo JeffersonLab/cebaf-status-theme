@@ -12849,4 +12849,32 @@ code {
   background: #ffffff url(../block_head_gradient_24.png) repeat-x center left;
 }
 
+.thumbtable th {
+  border: none;
+  text-align: left;
+  padding-left: 4px;
+}
+
+.thumbtitle {
+  color: #990000;
+  font-weight: bold;
+}
+
+.img-shadow {
+  float: left;
+  background: url("../img/shadowAlpha.png") no-repeat bottom right !important;
+  background: url("../img/shadow.gif") no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+}
+
 /*# sourceMappingURL=style.css.map */

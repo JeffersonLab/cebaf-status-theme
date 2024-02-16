@@ -23,6 +23,21 @@ $cebaf-yellow: #ffffeb;
   object-fit: contain;
 }
 
+.main-img {
+  width: 100%;
+  max-width: 800px;
+  object-fit: contain;
+}
+
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none;
+}
+
+.item-list li{
+list-style-type : circle;
+}
+
 .region-sidebar-second > .block-block-content,
 .region-sidebar-first > .block-block-content {
   background-color: $cebaf-yellow;
